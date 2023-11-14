@@ -1,122 +1,165 @@
+/* RESET BASE CSS */
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* INTESTAZIONE */
 header {
     line-height: 110px;
     height: 120px;
     border-top: 2px solid gray;
     font-size: 57px;
     font-weight: bold;
-    font-family: 'Lato', sans-serif;
     background-color: white;
     padding-left: 20px;
-  }
-  
-  body{
+}
+
+body {
     background-color: #e7e6e6;
     margin-top: 0px;
     margin-left: 0px;
-  }
-  
-  #logo {
+}
+
+/* LOGO */
+#logo {
     width: 70px;
     vertical-align: middle;
+}
 
+/* CONTENITORE PRINCIPALE */
 .container {
-    max-width: 1080px;
-    margin: 0 auto;
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 7px;
 }
 
-.container-button {
-    text-align: left;
-    height: 70px;
-    width: 50%;
-    background-color: white; 
-    margin-top: 100px;
-    margin-left: 300px;
-    border-radius: 2px;
-    padding: 15px;
-    padding-left: 20px;
+/* PULSANTI E FORMATTAZIONE */
+#buttons {
+    display: inline-block;
+    padding-top: 40px;
+    border-bottom: 2px solid #e7e6e6;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    width: 100%;
 }
 
-.button {
-    height: 30px;
-    width: 80px;
-    border-radius: 4px;
-}
-
-.button-blue {
-    background-color: rgb(0, 110, 255);
+.br-blue {
+    background-color: #368bf5;
     color: white;
-    border-color: rgb(0, 110, 255);
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 8px;
 }
 
-.button-grey {
+#white-select {
+    padding: 8px;
     background-color: white;
-    border: 1px solid lightgrey;
-    color: lightgrey;
+    border: 1px solid lightslategrey;
+    color: lightslategrey;
+    border-radius: 7px;
+    margin-left: 7px;
 }
 
-.container-content {
-    text-align: left;
-    width: 50%;
-    height: 600px;
-    background-color: white;
-    margin-top: 1px;
-    margin-left: 300px;
-    border-radius: 2px;
-    padding: 15px;
-}
-
-section {
-    margin-top: 50px;
-    padding-left: 20px;
-}
-
+/* SEZIONI E LISTE */
 h2 {
-    vertical-align: middle;
+    display: inline;
+    margin-left: 10px;
 }
 
-h4 {
-    margin-top: 10px;
+ul {
+    list-style: none;
+    padding-left: inherit;
 }
 
-.x-simbol {
+.x-nonfatto {
     color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 0 6px 0 6px;
+    margin-right: 15px;
 }
 
-.info-box {
+.v-fatto {
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 0 6px 0 4px;
+    margin-right: 15px;
+}
+
+li {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#second-list {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+#all-list {
+    padding: 44px 80px;
+}
+
+/* COLORE LISTE */
+.br-azzurro {
+    margin-left: 20px;
+    font-size: 12px;
+    background-color: rgb(87 162 255);
     color: white;
-    margin-left: 5px;
-    border-radius: 30px;
-    font-size: 10px;
-    padding: 5px;
+    border-radius: 10px;
+    padding: 7px 15px;
 }
 
-.editorial {
-    background-color: rgb(0, 115, 255);
+#br-viola {
+    margin-left: 20px;
+    font-size: 12px;
+    background-color: rgb(195, 104, 255);
+    color: white;
+    border-radius: 10px;
+    padding: 7px 15px;
+
 }
 
-.q1goals {
-    background-color: rgb(192, 138, 242);
+#br-acqua {
+    margin-left: 20px;
+    font-size: 12px;
+    background-color: rgb(76, 167, 124);
+    color: white;
+    border-radius: 10px;
+    padding: 7px 15px;
 }
 
-.recruiting {
-    background-color: rgb(47, 255, 95);
+#br-arancione {
+    margin-left: 20px;
+    font-size: 12px;
+    background-color: rgb(250, 161, 28);
+    color: white;
+    border-radius: 10px;
+    padding: 7px 15px;
 }
 
-.mobile {
-    background-color: orange;
+#br-fucsia {
+    margin-left: 20px;
+    font-size: 12px;
+    background-color: rgb(241, 54, 201);
+    color: white;
+    border-radius: 10px;
+    padding: 7px 15px;
 }
 
-.website {
-    background-color: blueviolet;
-}
-
-.sales {
-    background-color: goldenrod;
+#br-verde {
+    margin-left: 20px;
+    font-size: 12px;
+    background-color: rgb(198, 241, 79);
+    color: white;
+    border-radius: 10px;
+    padding: 7px 15px;
 }
