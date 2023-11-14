@@ -3,3 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.logo-container {
+    padding: 5px;
+}
+
+.logo {
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+
+}
+
+.title {
+    display: inline;
+    font-size: 50px;
+    vertical-align: middle;
+}
